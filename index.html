@@ -304,10 +304,12 @@
                     <div class="stat-number" id="totalVolumes">-</div>
                     <div class="stat-label">Volumes</div>
                 </div>
+                <!--
                 <div class="stat-card">
                     <div class="stat-number" id="totalSize">-</div>
                     <div class="stat-label">Total Size (GB)</div>
                 </div>
+                -->
             </div>
         </div>
 
@@ -392,7 +394,7 @@
                 });
             });
             totalSizeGB = totalSizeGB / 1024;
-            document.getElementById('totalSize').textContent = totalSizeGB.toFixed(2);
+            // document.getElementById('totalSize').textContent = totalSizeGB.toFixed(2);
         }
         
         // Filter series based on search and volume count
